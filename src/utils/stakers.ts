@@ -64,6 +64,9 @@ export function getUrlFromDnpName(): {
     case "erigon.dnp.dappnode.eth":
       executionClientMainnetUrl = `http://erigon.dappnode:8545`;
       break;
+    case "reth.dnp.dappnode.eth":
+      executionClientMainnetUrl = `http://reth.dappnode:8545`;
+      break;
   }
   switch (consensusClientMainnet) {
     case "prysm.dnp.dappnode.eth":
