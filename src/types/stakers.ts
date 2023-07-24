@@ -21,6 +21,7 @@ export const executionClientsMainnet = Object.freeze([
   "geth.dnp.dappnode.eth",
   "besu.public.dappnode.eth",
   "erigon.dnp.dappnode.eth",
+  "reth.dnp.dappnode.eth",
   "nethermind.public.dappnode.eth",
 ] as const);
 export type SignerMainnet = "web3signer.dnp.dappnode.eth";
